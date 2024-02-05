@@ -22,5 +22,5 @@ https://sahanaroy1.github.io/Random_Password_Generator/
 <img width="1413" alt="Prompt generator" src="https://github.com/Sahanaroy1/Random_Password_Generator/assets/127791384/d5470fe8-2fca-4859-a61e-586b597222ee">
 
 # Snippet the generated password:
-
+<img width="1419" alt="Generated password" src="https://github.com/Sahanaroy1/Random_Password_Generator/assets/127791384/6a54fa91-8483-4627-afb4-6198efbd6676">
 
