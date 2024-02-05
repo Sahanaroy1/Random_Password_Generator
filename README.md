@@ -19,7 +19,7 @@
 https://sahanaroy1.github.io/Random_Password_Generator/
 
 # Snippet of the prompts:
-
+<img width="1413" alt="Prompt generator" src="https://github.com/Sahanaroy1/Random_Password_Generator/assets/127791384/d5470fe8-2fca-4859-a61e-586b597222ee">
 
 # Snippet the generated password:
 
