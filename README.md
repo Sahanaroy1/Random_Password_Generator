@@ -16,7 +16,7 @@
 * It's done when the generated password is displayed on the screen or in an alert.
 
 * Deployed Link:
-
+https://sahanaroy1.github.io/Random_Password_Generator/
 
 # Snippet of the prompts:
 
