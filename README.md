@@ -16,11 +16,11 @@
 * It's done when the generated password is displayed on the screen or in an alert.
 
 * Deployed Link:
-
+https://sahanaroy1.github.io/Random_Password_Generator/
 
 # Snippet of the prompts:
-
+<img width="1413" alt="Prompt generator" src="https://github.com/Sahanaroy1/Random_Password_Generator/assets/127791384/d5470fe8-2fca-4859-a61e-586b597222ee">
 
 # Snippet the generated password:
-
+<img width="1423" alt="Generated password" src="https://github.com/Sahanaroy1/Random_Password_Generator/assets/127791384/8bf61332-4094-4da8-8a45-a1a19e7bd4f6">
 
