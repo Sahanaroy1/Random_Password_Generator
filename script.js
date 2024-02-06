@@ -9,12 +9,15 @@ function writePassword() {
   passwordText.value = password;
 }
 
-/* This function is created to generate a random password with user's input */
+/* To generate a random password with user's preference */
 function generatePassword() {
-  var passwordLength = userInput();
+  var passwordLength = userPasswordLength();
   if (passwordLength) {
-    var passwordCharacters = passwordCategory();
+    var passwordCharacters = passwordCharacterPreference();
     var generatedPassword = "";
+
+    /*Loop through the password length and a random character from the 
+   passwordCharacter string to the password variable.*/
 
     for (var i = 0; i < passwordLength; i++) {
       generatedPassword += passwordCharacters.charAt(
@@ -24,13 +27,16 @@ function generatePassword() {
     return generatedPassword;
   }
   alert("Invalid Length. Please try again!");
-  return;
+  return "";
 }
 
-/* This function is created check the length of the input and datatype is number */
-function userInput() {
+/* To take user input for password length.
+    Validate the input  */
+function userPasswordLength() {
   var maxPasswordLength = 128;
   var minPasswordLength = 8;
+
+  /* prompt is created to take user input.*/
   var passwordLength = prompt(
     "How long do you want your password to be? Minimum - " +
       minPasswordLength +
@@ -50,8 +56,8 @@ function userInput() {
   }
 }
 
-/* This function is created to check the user's choice over alphabet number and special character */
-function passwordCategory() {
+/* To create a string of all the types of charcters selected by the user */
+function passwordCharacterPreference() {
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var lowerCase = "abcdefghijklmnopqrstuvwxyz";
   var numbers = "0123456789";
