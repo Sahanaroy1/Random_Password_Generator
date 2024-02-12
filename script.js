@@ -13,7 +13,7 @@ function writePassword() {
 function generatePassword() {
   var passwordLength = userPasswordLength();
   if (passwordLength) {
-    var passwordCharacters = passwordCharacterPreference();
+    var passwordCharacters = getUserPreference();
     var generatedPassword = "";
 
     /*Loop through the password length and a random character from the 
@@ -57,7 +57,7 @@ function userPasswordLength() {
 }
 
 /* To create a string of all the types of charcters selected by the user */
-function passwordCharacterPreference() {
+function getUserPreference() {
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var lowerCase = "abcdefghijklmnopqrstuvwxyz";
   var numbers = "0123456789";
